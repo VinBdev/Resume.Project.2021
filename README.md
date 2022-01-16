@@ -1,3 +1,14 @@
+LOGOS CREDIT: 
+Symbol 1: Aluminium <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Symbol 2: Glasss <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Symbol 3: Mobius Loop - fully recycleable <div>Icons made by <a href="https://www.flaticon.com/authors/yoyonpujiono" title="yoyonpujiono">yoyonpujiono</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Symbol 4: steel recycling <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Symbol 5: <div>Icons made by <a href="https://www.flaticon.com/authors/juicy-fish" title="juicy_fish">juicy_fish</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> 
+Symbol 6: compostable <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome VinBdev,
