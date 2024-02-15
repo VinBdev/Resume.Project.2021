@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #1e1bdd;
 }
 
 .bg-color-three-reasons {
@@ -19,7 +19,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #505dec;
 }
 
 .bg-color-contact {
@@ -65,8 +65,8 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: #525252;
-    color: #555555;
+    background-color: #FDD017;
+    color: #090908;
 }
 
 
