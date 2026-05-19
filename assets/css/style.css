@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #1e1bdd;
+    background-color: #111111;
 }
 
 .bg-color-three-reasons {
@@ -11,7 +11,7 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
 }
 
 .bg-color-skills {
@@ -19,7 +19,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #505dec;
+    background-color: #222222;
 }
 
 .bg-color-contact {
@@ -27,7 +27,7 @@
 }
 
 .bg-color-conferences {
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
 }
 
 .bg-color-groups {
@@ -35,38 +35,35 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #1a1a1a;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #2e2e2e;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #3d3d3d;
 }
 
 .ui-menu-color-download {
-    background-color: #d9a81d;
+    background-color: #4d4d4d;
 }
 
-
 .ui-menu-color-github {
-    background-color: #1c4a6c;
+    background-color: #5c5c5c;
 }
 
 .ui-menu-color-interests {
-    background-color: #e74c3c;
+    background-color: #6b6b6b;
 }
-
-
 
 
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: #FDD017;
-    color: #090908;
+    background-color: #e8e8e8;
+    color: #111111;
 }
 
 
@@ -119,7 +116,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("images/3d1cbb7a-3381-4215-ab1b-f85eb2ea0f33.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +195,7 @@ header {
 /*--------------------------------------------Footer*/
 
 footer {
-    background-color: #525252;
+    background-color: #111111;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -212,7 +209,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-    color: #e84610;
+    color: #aaaaaa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -232,7 +229,7 @@ footer .cv-pdf i:hover {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: #555555;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -240,7 +237,7 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #aaaaaa;
 }
 
 #footer-details {
@@ -251,7 +248,7 @@ footer .cv-pdf i:hover {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e67e22;
+    color: #555555;
 }
 
 .three-reasons-heading {
@@ -383,8 +380,14 @@ footer .cv-pdf i:hover {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
+    background-color: #111111;
     color: #fafafa;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #444444;
+    color: #ffffff;
 }
 
 /*--------------------------------------------Map*/
