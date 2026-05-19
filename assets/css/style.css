@@ -4,6 +4,7 @@
 
 .bg-color-name-title {
     background-color: #111111;
+    flex: 1;
 }
 
 .bg-color-three-reasons {
@@ -109,6 +110,22 @@ h4 {
 
 header {
     margin: 0;
+    display: flex;
+}
+
+header > .row {
+    flex: 1;
+    align-items: stretch;
+}
+
+header > .row > .col-md-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+header > .row > .col-md-8 {
+    display: flex;
+    flex-direction: column;
 }
 
 .heading {
@@ -117,10 +134,11 @@ header {
 
 .logo {
     background: url("images/3d1cbb7a-3381-4215-ab1b-f85eb2ea0f33.jpeg");
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 420px;
+    flex: 1;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -130,7 +148,7 @@ header {
     font-family: "Helvetica", sans-serif;
     font-weight: 650;
     font-size: 46px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: #ffffff;
 }
 
@@ -138,49 +156,58 @@ header {
     font-family: "Helvetica", sans-serif;
     font-weight: 400;
     font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 90px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     color: #ffffff;
 }
 
 #nav {
     margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
 }
 
 #nav li {
     padding: 0;
+    margin: 0;
+    flex: 1;
 }
 
 .menuitem {
-    height: 120px;
+    height: 64px;
     text-align: center;
     padding: 0;
+    margin: 0;
 }
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
-    height: 120px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0;
 }
 
-
 .menuitem a i {
-    padding-top: 22px;
     display: block;
     color: #fafafa;
-    font-size: 26px;
+    font-size: 16px;
+    padding: 0;
 }
 
 .menuitem span {
     display: block;
-    width: 100%;
-    padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
 }
 
 
@@ -188,7 +215,7 @@ header {
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 64px;
 }
 
 
